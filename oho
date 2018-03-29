@@ -1,0 +1,5 @@
+def outer():
+    test = 1
+    def inner():
+        test *= 2
+        print(test)
